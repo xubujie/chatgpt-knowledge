@@ -1,18 +1,17 @@
 # ChatGPT Knowledge
 
-![GitHub Workflow Status]()
-![Visitors]()
-![License]()
+![GitHub Workflow Status](https://github.com/xubujie/chatgpt-knowledge/actions/workflows/pre-release-build.yml/badge.svg)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fxubujie%2Fchatgpt-knowledge&label=VISITORS&countColor=%23dce775&style=flat-square)
+![License](https://img.shields.io/github/license/wong2/chatgpt-google-extension)
 
 ---
 
 A browser extension to display ChatGPT response to questions from Q&A platforms
 * [Quora](https://www.quora.com/)
 * [Yahoo知恵袋](https://chiebukuro.yahoo.co.jp/)
+* [知乎](https://www.zhihu.com/)
 
-[Install from Chrome Web Store]()
-
-[Install from Mozilla Add-on Store]()
+[Install from Chrome Web Store (TBU)]()
 
 ## Screenshot
 
@@ -31,7 +30,7 @@ A browser extension to display ChatGPT response to questions from Q&A platforms
 
 ## TODOs
 
-- [ ] add zhihu support
+- [x] add zhihu support
 
 ## Troubleshooting
 
@@ -49,6 +48,6 @@ A browser extension to display ChatGPT response to questions from Q&A platforms
 4. Load `build/chromium/` or `build/firefox/` directory to your browser
 
 
-## Used repos
+## Acknowledgement
 
 * https://github.com/wong2/chatgpt-google-extension

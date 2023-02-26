@@ -21,7 +21,7 @@ async function mount(question: string, siteConfig: SearchEngine) {
     if (siteName === 'yahoo') {
       siderbarContainer.insertAdjacentElement("afterend", container)
     }
-    if (siteName === 'quora') {
+    if (siteName === 'quora' || siteName === 'zhihu') {
       siderbarContainer.prepend(container)
     }
   }

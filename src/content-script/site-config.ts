@@ -15,5 +15,10 @@ export const config: Record<string, SearchEngine> = {
     questionQuery: ['.qu-userSelect--text'],
     sidebarContainerQuery: ['.dom_annotate_question_answer_item_0'],
     appendContainerQuery: ['#cols', '#contents__wrap'],    
+  },
+  zhihu: {
+    questionQuery: ['.QuestionHeader-title'],
+    sidebarContainerQuery: ['.QuestionAnswer-content'],
+    appendContainerQuery: ['#cols', '#contents__wrap'],    
   }
 }
