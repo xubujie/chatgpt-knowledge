@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "ChatGPT Knowledge"
+  },
+  "appDesc": {
+    "message": "Quora, Yahoo知恵袋の質問をChatGPTで答えする"
+  }
+}
