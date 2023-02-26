@@ -15,8 +15,8 @@ A browser extension to display ChatGPT response to questions from Q&A platforms
 
 ## Screenshot
 
-![Quora](screenshots/quora.png?raw=true)
-
+![quora](screenshots/quora.png?raw=true)
+![zhihu](screenshots/zhihu.png?raw=true)
 ![yahoo](screenshots/yahoo.png?raw=true)
 
 ## Features
