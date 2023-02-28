@@ -11,7 +11,7 @@ A browser extension to display ChatGPT response to questions from Q&A platforms
 * [Yahoo知恵袋](https://chiebukuro.yahoo.co.jp/)
 * [知乎](https://www.zhihu.com/)
 
-[Install from Chrome Web Store (TBU)]()
+[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-knowledge/chdldcpcjochbemlaclnckfkeaojibao)
 
 ## Screenshot
 
