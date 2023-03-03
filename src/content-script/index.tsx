@@ -18,7 +18,7 @@ async function mount(question: string, siteConfig: SearchEngine) {
 
   const siderbarContainer = getPossibleElementByQuerySelector(siteConfig.sidebarContainerQuery)
   if (siderbarContainer) {
-    if (siteName === 'yahoo') {
+    if (siteName === 'yahoo' || siteName === 'stackoverflow') {
       siderbarContainer.insertAdjacentElement("afterend", container)
     }
     if (siteName === 'quora' || siteName === 'zhihu') {
@@ -34,7 +34,8 @@ async function mount(question: string, siteConfig: SearchEngine) {
 async function run() {
   const question = getPossibleElementByQuerySelector<HTMLInputElement>(siteConfig.questionQuery)
   if (question && question.textContent) {
-    const q = question.textContent.trim()
+    const q = question.textContent
+    console.log(q)
     mount(q, siteConfig)
   }
 }

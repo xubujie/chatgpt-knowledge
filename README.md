@@ -31,6 +31,7 @@ A browser extension to display ChatGPT response to questions from Q&A platforms
 ## TODOs
 
 - [x] add zhihu support
+- [x] add stackoverflow support
 
 ## Troubleshooting
 

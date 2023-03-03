@@ -20,5 +20,10 @@ export const config: Record<string, SearchEngine> = {
     questionQuery: ['.QuestionHeader-title'],
     sidebarContainerQuery: ['.QuestionAnswer-content'],
     appendContainerQuery: ['#cols', '#contents__wrap'],    
+  },
+  stackoverflow: {
+    questionQuery: ['.js-post-body'],
+    sidebarContainerQuery: ['.post-layout'],
+    appendContainerQuery: ['#cols', '#contents__wrap'],
   }
 }
