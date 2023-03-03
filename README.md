@@ -6,10 +6,11 @@
 
 ---
 
-A browser extension to display ChatGPT response to questions from Q&A platforms
+A browser extension to display ChatGPT response to questions from Q&A platforms such as stackoverflow, quora
 * [Quora](https://www.quora.com/)
 * [Yahoo知恵袋](https://chiebukuro.yahoo.co.jp/)
 * [知乎](https://www.zhihu.com/)
+* [stackoverflow](https://stackoverflow.com/)
 
 [Install from Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-knowledge/chdldcpcjochbemlaclnckfkeaojibao)
 
